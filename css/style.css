@@ -1,0 +1,67 @@
+.padre p:first-child{
+ background-color: aqua;
+}
+
+.padre p:last-child{
+    background-color: rgb(121, 70, 87);
+   }
+
+.padre div:first-of-type{
+    background-color: rgb(161, 236, 164);
+   }
+
+   .padre div:last-of-type{
+    background-color: rgb(161, 236, 164);
+   }
+
+   .padre div:empty{
+height: 10px;
+background-color: blueviolet;
+   }
+  /*  section:first-child{
+    background-color: rgb(255, 214, 214);
+   } */
+
+/* ESTILOS DE LA TABLA */
+   tr:nth-child(odd){ color: green;}
+tr:nth-child(even){ color: red;}
+table{border-collapse: collapse;}
+tr td, tr th{border: 1px solid black;}
+
+/* ESTILOS PARA DIV PARES E IMPARES */
+
+div:nth-child(odd){ background-color: rgb(180, 234, 180);}
+div:nth-child(even){ background-color: rgb(230, 189, 189);}
+
+/* ENLACES */
+a{
+    display: block;
+}
+
+a:focus{
+    background-color: rgb(94, 227, 176);
+}
+
+a:active{
+    text-decoration: none;
+    color: rgb(139, 37, 17);
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 36, 36);
+}
+
+
+a:link{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(4, 25, 131);
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(182, 18, 56);
+}
